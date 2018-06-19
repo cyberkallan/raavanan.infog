@@ -71,9 +71,9 @@ tangodown() {
 
 read -p $'\e[1;92m[*] Site: \e[0m' ip_check
 
-checktango=$(curl -sLi $ip_check | grep -o 'HTTP/1.1 200 OK')
+checktango=$(curl -sLi --user-agent 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.63 Safari/537.31' $ip_check | grep -o 'HTTP/1.1 200 OK\|HTTP/2 200')
 
-if [[ $checktango == *'HTTP/1.1 200 OK'* ]]; then
+if [[ $checktango == *'HTTP/1.1 200 OK'* ]] || [[ $checktango == *'HTTP/2 200'* ]]; then
 printf "\e[1;92m[*] Site is Up!\e[0m\n"
 else
 printf "\e[1;93m[*] Site is Down!\e[0m\n"
@@ -479,6 +479,8 @@ total=$(wc -l open.ports | cut -d " " -f1)
 printf "\e[1;92m[*] Total Open ports:\e[0m\e[1;77m %s\e[0m\n" $total
 printf "\e[1;77m\n"
 cat open.ports
+rm -rf open.ports
+rm -rf ports
 printf "\e[0m\n"
 fi
 exit 1
@@ -486,7 +488,7 @@ exit 1
 }
 
 portscan() {
-rm -rf open.ports
+
 read -p $'\e[1;92m[*] Host: \e[0m' host
 printf "\e[1;92m[*] Choose an option:\e[0m\n"
 read -p $'\e[1;92m[*] \e[0m\e[1;77m1)\e[0m\e[1;92m Single Port, \e[0m\e[1;77m2)\e[0m\e[1;92m Port Range: \e[0m' choice_port
