@@ -5,7 +5,7 @@
 
 Raavanan.InfoG is a Shellscript to perform Information Gathering 
 
-![infog](https://user-images.githubusercontent.com/34893261/41567454-b2c8f96a-7336-11e8-9924-00d7d7d0e8e3.png)
+![infog](https://user-images.githubusercontent.com/56509491/67071569-86caa680-f1a0-11e9-9649-9e9f7d343979.jpg)
 
 ### Features
 
