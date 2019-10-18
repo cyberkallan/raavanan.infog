@@ -1,9 +1,9 @@
-# InfoG v1.0
-## Author: github.com/thelinuxchoice
-## IG: instagram.com/thelinuxchoice
+# Raavanan InfoG v1.0
+## Author: github.com/cyberkallan
+## IG: instagram.com/arz_beats
 ### Don't copy this code without give me the credits, nerd! 
 
-InfoG is a Shellscript to perform Information Gathering 
+Raavanan.InfoG is a Shellscript to perform Information Gathering 
 
 ![infog](https://user-images.githubusercontent.com/34893261/41567454-b2c8f96a-7336-11e8-9924-00d7d7d0e8e3.png)
 
@@ -25,8 +25,8 @@ InfoG is a Shellscript to perform Information Gathering
 
 ### Usage:
 ```
-git clone https://github.com/thelinuxchoice/infog
-cd infog
+git clone https://github.com/cyberkallan/raavanan.infog
+cd raavanan.infog
 bash infog.sh
 ```
 
