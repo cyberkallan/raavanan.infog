@@ -1,9 +1,9 @@
 #!/bin/bash
 # InfoG v1.0
-# coded by cyber kallan (Don't change, read the lincense!)
+# coded by mr ravanan(Don't change, read the lincense!)
 # Github: https://github.com/cyberkallan/raavanan.infog
-# Instagram: arz_beats
-# YouTube : CYBER KALLAN
+# Instagram: mr._r_a_v_a_n_a_n
+# YouTube : Mr Ravanan
 
 banner() {
 printf "\n"
@@ -18,7 +18,7 @@ printf "\e[1;77m       .::.:::  .::  .::     .::      \e[0m\e[1;93m.:::::    \e[
 printf "\e[1;77m     ::::::::::::::::::::::::::::::::::::::::::r̼̯̤̈ͭ̃ͨ̆a̘̫͈̭͌͛͌̇̇̍a̘̫͈̭͌͛͌̇̇̍v̪̩̜̜̙̜ͨ̽̄a̘̫͈̭͌͛͌̇̇̍n͉̠̙͉̗̺̋̋̔ͧ̊a̘̫͈̭͌͛͌̇̇̍n͉̠̙͉̗̺̋̋̔ͧ̊\e[0m\n"
 printf "\n"
 printf "\e[1;92m     .::.\e[0m\e[1;77m Infomation Gathering Tool - v1.0 \e[1;92m.::.\e[0m\n"
-printf "\e[1;32m  .::.        Recoded by Cyber kallan        .::.\e[0m\n"
+printf "\e[1;32m  .::.        Recoded by Mr ravanan      .::.\e[0m\n"
 printf "\n"
 
 }
